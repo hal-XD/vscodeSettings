@@ -1,0 +1,31 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    // following setting is for vim
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [ 
+    //"vim.otherModesKeyBindings": [
+        // all selection
+        {
+            "before" : ["leader","a"],
+            "after" : ["g","g","v","G"]
+        },
+        // split editor
+        {
+            "before" : ["leader","s"],
+            "after" : [],
+            "commands" : [
+                {
+                    "command": "workbench.action.splitEditor",
+                    "args" : []
+                }
+            ]
+        }
+    ]
+    
+}
