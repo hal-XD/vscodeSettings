@@ -13,7 +13,7 @@
         // all selection
         {
             "before" : ["leader","a"],
-            "after" : ["g","g","v","G"]
+            "after" : ["g","g","v","G","$"]
         },
         // split editor
         {
