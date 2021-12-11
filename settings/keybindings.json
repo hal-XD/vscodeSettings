@@ -2,12 +2,12 @@
 [
     // move terminal from editor.
     {
-        "key" : "ctrl+/",
+        "key" : "ctrl+K ,",
         "command" : "workbench.action.terminal.focus"
     },
     // move editor from terminal
     {
-        "key": "ctrl+/",
+        "key": "ctrl+K ,",
         "command" : "workbench.action.focusActiveEditorGroup",
         "when": "terminalFocus"
     }
