@@ -1,0 +1,14 @@
+// Place your key bindings in this file to override the defaults
+[
+    // move terminal from editor.
+    {
+        "key" : "ctrl+/",
+        "command" : "workbench.action.terminal.focus"
+    },
+    // move editor from terminal
+    {
+        "key": "ctrl+/",
+        "command" : "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    }
+]
